@@ -17,6 +17,7 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
+  Application.Title := 'SistemaTeste';
   Application.CreateForm(TFrmPrincipal, FrmPrincipal);
   Application.Run;
 end.
